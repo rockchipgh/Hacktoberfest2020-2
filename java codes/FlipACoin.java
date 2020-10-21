@@ -4,6 +4,7 @@ public class FlipACoin {
     public static final String ANSI_RED  = "\u001B[31m";
 
     public static void main(String[] args) {
+        System.out.println("You decide to randomly fil a coin\n");
         int i = (int)(Math.random()*10);
         if(i%2==0){
             System.out.println("Its a "+ANSI_BLUE+"HEADS"+ANSI_BLUE);
